@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 3em;
+}
+
+h1:hover,
+a:hover {
+    color: #000000;
+}
+
+body {
+    /*background-image: url("Renders/MainCropped.png");*/
+    background-color: powderblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 0.5;
+}
+
+div {
+    text-align: center;
+}
+
+img:hover {
+    background: url("Renders/Main.png") no-repeat;
+}
+
+.highlight {
+    background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+}
